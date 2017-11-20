@@ -11,11 +11,11 @@ USER root
 
 #labeling
 LABEL maintainer="netpi@hilscher.com" \
-      version="V1.0.0.0" \
+      version="V0.9.1.0" \
       description="Debian with bluez protocol stack"
 
 #version
-ENV HILSCHERNETPI_BLUEZ_VERSION 1.0.0.0
+ENV HILSCHERNETPI_BLUEZ_VERSION 0.9.1.0
 
 #install prerequisites
 RUN apt-get update  \
